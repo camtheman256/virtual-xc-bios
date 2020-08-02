@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"main.scss"
+	],
+	"sourcesContent": [
+		"$mit-color: #9B2438;\n\n.athlete-name {\n    color: $mit-color;\n    font-weight: 600;\n}\n\n.font-semibold {\n    font-weight: 600;\n}\n\n.font-medium {\n    font-weight: 500;\n}\n\n.navbar-custom {\n    background-color: black;\n}\n\n.bg-mit {\n    background-color: $mit-color;\n}\n\nbody {\n    font-family: 'Montserrat', sans-serif;\n}\n\n"
+	],
+	"names": [],
+	"mappings": "AAEA,AAAA,aAAa,CAAC,EACV,KAAK,EAHG,OAAO,EAIf,WAAW,EAAE,GAAG,GACnB;;AAED,AAAA,cAAc,CAAC,EACX,WAAW,EAAE,GAAG,GACnB;;AAED,AAAA,YAAY,CAAC,EACT,WAAW,EAAE,GAAG,GACnB;;AAED,AAAA,cAAc,CAAC,EACX,gBAAgB,EAAE,KAAK,GAC1B;;AAED,AAAA,OAAO,CAAC,EACJ,gBAAgB,EApBR,OAAO,GAqBlB;;AAED,AAAA,IAAI,CAAC,EACD,WAAW,EAAE,wBAAwB,GACxC"
+}
