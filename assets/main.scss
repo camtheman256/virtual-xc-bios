@@ -1,0 +1,29 @@
+---
+---
+$mit-color: #9B2438;
+
+.athlete-name {
+    color: $mit-color;
+    font-weight: 600;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.navbar-custom {
+    background-color: black;
+}
+
+.bg-mit {
+    background-color: $mit-color;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+

@@ -1,0 +1,44 @@
+---
+layout: default
+---
+<a href="/" class="btn btn-outline-secondary mb-3">&larr; Back to Team</a>
+<div class="card bg-mit text-white mb-4">
+    <div class="row no-gutters">
+        <div class="col-4 col-md-3 col-lg-2">
+            <img src="/assets/athletes/{{ page.athlete.image }}" class="card-img rounded-left">
+        </div>
+        <div class="col-8 col-md-9 col-lg-10">
+            <div class="card-body">
+                <h2 class="card-title font-semibold">{{ page.athlete.name }}</h2>
+                <table>
+                    <tr>
+                        <th class="pr-5">Height:</th>
+                        <td>{{ page.athlete.height }}</td>
+                    </tr>
+                    <tr>
+                        <th>Year:</th>
+                        <td>{{ page.athlete.class }}</td>
+                    </tr>
+                    <tr>
+                        <th>Hometown:</th>
+                        <td>{{ page.athlete.hometown }}</td>
+                    </tr>
+                    <tr>
+                        <th>High School:</th>
+                        <td>{{ page.athlete.highschool }}</td>
+                    </tr>
+                    <tr>
+                        <th>Major:</th>
+                        <td>{{ page.athlete.major }}</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <h2>Athlete Biography</h2>
+    <hr />
+    {{ page.athlete.bio | markdownify }}
+</div>

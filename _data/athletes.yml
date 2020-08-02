@@ -1,0 +1,22 @@
+- name: Cameron Kleiman
+  class: So.
+  height: 6-3
+  hometown: Austin, Texas
+  highschool: Liberal Arts and Science Academy
+  major: Computer Science, Urban Planning
+  image: Kleiman_Cameron_headshot.jpg
+  bio: >
+    # Hello!
+
+    I'm Cameron Kleiman and this is my bio, in Markdown with $\rm\LaTeX$ support from [MathJax](https://www.mathjax.org).
+    
+
+    You can find my website at [camk.co](https://camk.co).
+
+- name: Steven Goldy
+  class: Sr.+
+  height: 5-7
+  hometown: Centennial, Colo.
+  highschool: Arapahoe
+  major: Aerospace Engineering
+  image: Goldy_Steven_headshot.jpg
