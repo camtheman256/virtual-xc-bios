@@ -21,8 +21,14 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-      
-    - name: Jekyll Actions
-      uses: helaili/jekyll-action@2.0.3
-      env:
-        JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
+    
+    - name: Jekyll Action TS
+      uses: limjh16/jekll-action-ts@v2
+      with:
+        enable_cache: true
+    
+    - name: Deploy to GitHub
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        deploy_key: ${{ secrets.JEKYLL_PAT }}
+        publish_dir: ./_site
