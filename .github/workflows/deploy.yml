@@ -23,7 +23,7 @@ jobs:
     - uses: actions/checkout@v2
     
     - name: Jekyll Action TS
-      uses: limjh16/jekll-action-ts@v2
+      uses: limjh16/jekyll-action-ts@v2
       with:
         enable_cache: true
     
